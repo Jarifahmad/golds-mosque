@@ -42,6 +42,10 @@ body {
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif; }
 
+.carousel-images{
+  position: relative; 
+  height: 937px;
+}
   .home{
     background-image: url("images\main-background.jpg");
   }
