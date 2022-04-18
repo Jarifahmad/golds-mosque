@@ -42,6 +42,12 @@ body {
   overflow-y: scroll;
   font-family: 'Source Sans Pro', sans-serif; }
 
+.carousel-images{
+  object-fit: cover;
+  object-position: center;
+  height: 90vh;
+  overflow: hidden;
+}
   .home{
     background-image: url("images\main-background.jpg");
   }
@@ -53,77 +59,7 @@ a {
 li {
   list-style: none; }
 
-  table{
-    position: relative;
-    left: 200px;
-    font-family: sans-serif;
-    border-collapse: collapse;
-    width: 800px;
-    height: 300px;
-    text-align: center;
-    font-size: 200px;
-    }
-    
-    th{
-    background-color: #333;
-    color: #fff;
-    }
-    
-    th, td{
-    padding: .8rem;
-    font-size: 1.4rem;
-    }
-    
-    tbody{
-    background-color: #eee;
-    color: #555;
-    }
-    
-    
-    @media screen and (max-width: 600px){
-    thead{
-      display: none;
-    }
-
-    table{
-      position: relative;
-      width: auto;
-      padding: 100px;
-    }
-    
-    td{
-      display: block;
-    }
-    
-    td:first-child{
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-    }
-    
-    td:nth-child(2)::before{
-      content: "Begins";
-    }
-    
-    td:nth-child(3)::before{
-      content: "Jamat";
-    }
-    
-    
-    td{
-      text-align: right;
-    }
-    
-    td::before{
-      float: left;
-      margin-right: 3rem;
-      font-weight: bold;
-    }
-    }
   
-  
-
-
 input:focus,
 button:focus,
 a:focus,
